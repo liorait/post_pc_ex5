@@ -1,0 +1,17 @@
+I pledge the highest level of ethical principles in support of academic excellence.  I ensure that all of my work reflects my own abilities and not those of someone else.
+
+Answers to README questions:
+
+I actually defined an UX flow to let users edit a description on an existing TODO item.
+
+The implemetation of the Edit function is :
+Create a noticable button with the text "Edit" on it.
+When pressing the button, the text of the description changes the style to bold and becomes enabled 
+so that the user can edit the text.
+The button now shows "done", when pressing the button the text view becomes disabled and the new description is saved.
+
+when I considered how to do it, I though about the following:
+It is very easy for users to find the edit button and understand how it works.
+The changes in the UI (changing the style of the text for example) are noticable and help the user understand the flow.
+The implementation was not hard at all and was similar to implementing the delete function.
+The edit function is very similar to edit flows in Android world.
